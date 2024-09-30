@@ -1,0 +1,28 @@
+#topo{
+    /*layout*/
+	margin: 20px 10px 20px 10px;
+	padding: 15px;
+    /*bordas*/
+	border-width: 10px;
+	border-style: groove;
+    /*fonte*/
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+    /*cores*/
+	background-color:  #020808;
+    color:rgb(243, 228, 14);  
+}
+body{
+background-image: url("rambo.jpg");
+} 
+#tabela{
+	border-width: 10px;
+	border-style: groove;
+	background-color: #d3d3d3;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 22px;
+	color: black;
+	border-right: 250px;
+	  
+}

@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> Cadastro de Usuário </title>
+<meta charset="utf8">
+<link rel="stylesheet" type="text/css" href="estilo.css"/> 
+</head>
+<body>
+<div id="corpo-form-cad"> 
+<form method="POST" action="cadastro.php">
+<input type="text" name="nome" id="nome" placeholder="Nome"><br>    
+<input type="text" name="login" id="login" placeholder="Login"><br>
+<input type="password" name="senha" id="senha" placeholder="Senha"><br>
+<select name="nivel">
+    <option>Nivel</option> 
+    <option value="1">Professor</option>
+    <option value="2">Admin</option>                      
+</select><br><br>	
+<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+</form>
+</div>   
+</body>
+</html>

@@ -1,0 +1,77 @@
+#topo{
+    /*layout*/
+	margin: 20px 10px 20px 10px;
+	padding: 15px;
+    /*bordas*/
+	border-width: 10px;
+	border-style: groove;
+    /*fonte*/
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+    /*cores*/
+	background-color:  #020808;
+    color:rgb(243, 228, 14);  
+}
+
+#lateral {
+	/*layout*/
+	border-width: 5px;
+	border-style: solid white;
+	width: 200px;
+	/*cores*/
+	background-color:#ffa500 ;
+	/*fonte*/
+	line-height: 2;
+	font-family: arial,helvetica;
+	font-size: 0.9em;
+}
+
+
+legend {
+	border:medium solid gray;
+	background-color: white;
+
+}
+#box1{
+	width: 400px;
+	position: relative;
+	border:2px;
+	border-style: groove;
+	border-width : 8px;
+	height: 400px;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: -276px;
+	margin-left :  120px;
+	color: rgb(2, 2, 2);
+	background-color: #78866b;
+}
+
+#box2{
+	position: relative;
+	border:2px;
+	border-style: groove;
+	border-width : 8px;
+	width: 400px;
+	height: 630px;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 560px;
+	margin-top: -180px;
+	color: rgb(2, 2, 2);
+	background-color: #d3d3d3;
+}
+
+#quemsomos{
+	border-style: groove;
+    border-width : 2px;
+    width:300px;
+	font-family: arial;
+	font-size: 17px;
+	text-align: center;
+    margin-left :  900px;
+    margin-top: -180px;
+	color: black;
+	background-color:  #d3d3d3;
+}
